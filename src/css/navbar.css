@@ -1,0 +1,33 @@
+.navVisible{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: visible;
+    transition: all 0.3s;
+    /* background-image: url('../img-1.gif'); */
+    /* background-image: url('../img-1.JPG'); */
+    background-color: none;
+    /* background-color: gray; */
+}
+.navHidden {
+    visibility: hidden;
+    transition: all 0.3s;
+    transform: translateY(-100%);
+}
+
+/* .navbar-custom {
+    background-image: url('../img-1.gif');
+} */
+
+@media (max-width: 690px) {
+    .navVisible {
+        background-image:none;
+        background-color: rgb(28, 28, 28);
+        /* background-image: gray; */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        visibility: visible;
+        transition: all 0.3s;
+    }
+}

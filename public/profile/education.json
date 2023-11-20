@@ -1,0 +1,40 @@
+{
+    "education":[
+        {
+            "title": "Sept 2023 - Jun 2025",
+            "cardTitle": "University of California, Davis (UC Davis)",
+            "url": "https://www.ucdavis.edu/",
+            "cardSubtitle": "MS Computer Science",
+            "icon" : {
+                "src": "images/education/ucdavis.png"
+                
+            },
+            "media": {
+                "name": "UC Davis",
+               "source": {
+                  "url": "images/education/ucdavis-2.jpg"
+
+                },
+                "type": "IMAGE"
+            },
+            "cardDetailedText": ["Courses:", "Computer and Information Security, Research in Computer Science"]
+        },
+        {
+            "title": "Sept 2019 - Jun 2023",
+            "cardSubtitle": "BS Computer Science",
+            "url": "https://lums.edu.pk/",
+            "cardTitle":"Lahore University of Management and Sciences (LUMS)",
+            "icon" : {
+                "src": "images/education/lums.png"
+            },
+            "media": {
+                "name": "LUMS",
+               "source": {
+                  "url": "images/education/lums-1.png"
+                },
+                "type": "IMAGE"
+            },
+            "cardDetailedText": ["Courses:", "Objected-Oriented Programming, Data Structures, Discrete Math, Algorithm, Operating System, Network Security, Software Engineering, Data Science, Data Mining, Advanced Programming, Human-Computer Interaction, Artificial Intelligence"]
+        }
+    ]
+}

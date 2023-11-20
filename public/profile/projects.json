@@ -1,13 +1,13 @@
 {
     "projects" : [
         {
-            "image" : "../images/projects/folio.jpg",
+            "image" : "../images/projects/folio.JPG",
             "title": "Personal Website",
             "bodyText": "- My personal website which serves as a comprehensive showcase of my professional projects and skills in software engineering \n - The website features a user-friendly design with a focus on responsive layouts to ensure accessibility on various devices",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com"
+                    "href": "https://github.com/zeerakb1/zeerakb1.github.io"
                 }
             ],
             "tags" : [
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "title": "../Container Escape CVEs",
+            "title": "Container Escape CVEs",
             "bodyText": "- The project contains information on various Container Escape CVEs along with their Proof of Concepts, including complete setup and execution instructions. \n- Additionally, the project includes audit logs and malicious subgraphs for each CVE.",
             "links": [
                 {

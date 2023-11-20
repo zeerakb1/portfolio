@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import useDarkMode from 'use-dark-mode';
 import AppContext from './AppContext';
@@ -18,9 +19,11 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter>
+          {/* <BrowserRouter> */}
+          <HashRouter>
             <MainApp />
-          </BrowserRouter>
+          </HashRouter>
+          {/* </BrowserRouter> */}
         </div>
       </ThemeProvider>
     </AppContext.Provider>

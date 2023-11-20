@@ -6,13 +6,13 @@
             "url": "https://www.ucdavis.edu/",
             "cardSubtitle": "MS Computer Science",
             "icon" : {
-                "src": "images/education/ucdavis.png"
+                "src": "../images/education/ucdavis.png"
                 
             },
             "media": {
                 "name": "UC Davis",
                "source": {
-                  "url": "images/education/ucdavis-2.jpg"
+                  "url": "../images/education/ucdavis-2.jpg"
 
                 },
                 "type": "IMAGE"
@@ -25,12 +25,12 @@
             "url": "https://lums.edu.pk/",
             "cardTitle":"Lahore University of Management and Sciences (LUMS)",
             "icon" : {
-                "src": "images/education/lums.png"
+                "src": "../images/education/lums.png"
             },
             "media": {
                 "name": "LUMS",
                "source": {
-                  "url": "images/education/lums-1.png"
+                  "url": "../images/education/lums-1.png"
                 },
                 "type": "IMAGE"
             },

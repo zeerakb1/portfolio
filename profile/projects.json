@@ -1,0 +1,145 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/folio.jpg",
+            "title": "Personal Website",
+            "bodyText": "- My personal website which serves as a comprehensive showcase of my professional projects and skills in software engineering \n - The website features a user-friendly design with a focus on responsive layouts to ensure accessibility on various devices",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com"
+                }
+            ],
+            "tags" : [
+                "HTML/CSS",
+                "JavaScript",
+                "React",
+                "Portfolio"
+            ]
+        },
+        {
+            "image" : "images/projects/backspace.jpg",
+            "title": "BackSpace",
+            "bodyText": "- A mobile application designed to connect the LUMS student community of more than 1000 students \n - Include features such as real-time chat, instructor reviews, adding, deleting a post and search functionality ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/BackSpace"
+                }
+            ],
+            "tags" : [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "Figma",
+                "Android Application"
+            ]
+        },
+        {
+            "image" : "images/projects/tvshow (1).jpg",
+            "title": "TV Shows: Cleaning and Exploration",
+            "bodyText": "- Analyzed TV show data from streaming platforms to identify viewer trends and preferences \n - Performed data cleaning, preporcessing, and made predictions based insights",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/TV-Shows-Cleaning-and-Exploration"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Pandas",
+                "Numpy",
+                "Matplotlib",
+                "Data Science",
+                "Data Analysis"
+            ]
+        },
+        {
+            "image" : "images/projects/briefbox-img.jpg",
+            "title": "BriefBox",
+            "bodyText": "- BriefBox is an application integrating OpenAI API to generate concise and brief overviews of articles and blogs \n - It uses Tailwind CSS and localstorage to provide faster data retrieval and dynamic UI updates",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/BriefBox"
+                }
+            ],
+            "tags" : [
+                "ReactJs",
+                "TailwindCss",
+                "OpenAI",
+                "JavaScript"
+            ]
+        },
+        {
+            
+            "image" : "images/projects/board (1).jpg",
+            "title": "Board Sequence Game",
+            "bodyText": "- A multiplayer game of Sequence for four players (2 in each team). Player 1 and 3 will be team 1 and player 2 and 4 will be team 2 by default.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/Board-Sequence-Game"
+                }
+            ],
+            "tags" : [
+                "HTML/CSS",
+                "JavaScript",
+                "Node",
+                "WebSocket",
+                "Game"
+            ]
+        },
+        {
+            "image": "images/projects/bookshelf (1).jpg",
+            "title": "Bookshelf",
+            "bodyText": "- A web based full stack MERN application that provides local bookstore brand’s offline inventory into an online shopping platform \n - Included features such as add to cart, filter products, update inventory and checkout",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/Bookshelf"
+                }
+            ],
+            "tags" : [
+                "ReactJs",
+                "Express.js",
+                "Node.js",
+                "MongoDB",
+                "Redux",
+                "Web Development"
+            ]
+        },
+        {
+            "image" : "images/projects/cscanner (1).jpg",
+            "title": "C Scanner",
+            "bodyText": "- Haskell code that scans a C/C++ file, takes a sequence of characters (the source file of the program) and produces a sequence of tokens",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/C-Scanner/tree/main"
+                }
+            ],
+            "tags" : [
+                "Haskell",
+                "Parser"
+            ]
+        },
+        {
+            "title": "Container Escape CVEs",
+            "bodyText": "- The project contains information on various Container Escape CVEs along with their Proof of Concepts, including complete setup and execution instructions. \n- Additionally, the project includes audit logs and malicious subgraphs for each CVE.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/haseeb62/Container-Escape-CVEs"
+                }
+            ],
+            "tags" : [
+                "Linux",
+                "Python",
+                "Bash",
+                "Docker",
+                "Kubernetes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "experiences": [
+        {
+            "title": "Graduate Teaching Assistant",
+            "subtitle": "UC Davis",
+            "workType": "Full-time",
+            "workDescription": [
+                "Working as TA for the course HIS 9A. Led 3 discussion sections with 50 students, fostering interactivity. Provided one-on-one mentoring, designed quizzes, facilitated group activities, and graded assignments for feedback and improvement."
+            ],
+            "dateText": "10/2023 – Present"
+        },
+        {
+            "title": "Lead Instructor",
+            "subtitle": "Knowledge Streams",
+            "workType": "Full-time",
+            "workDescription": [
+                "Led and instructed 30 students as a Data Science Instructor at Knowledge Streams, mentoring them in project work, using interactive exercises and assignments for active learning."
+            ],
+            "dateText": "06/2023 – 10/2023"
+        },
+        {
+            "title": "Undergraduate Research Assistant",
+            "subtitle": "LUMS",
+            "workType": "Part-time",
+            "workDescription": [
+                "Worked in container-host escape attacks, securing software using Deep Graph Learning and anomaly detection for containerized applications. Analyzed Linux audit logs for Common Vulnerability Exploits in containerized apps, with a focus on Container Escape Attacks. Automated log processing using SPADE and Python scripts and used machine learning for detecting malicious attacks."
+            ],
+            "dateText": "07/2022 – 06/2023"
+        },
+        {
+            "title": "Software Development Intern",
+            "subtitle": "Techloyce",
+            "workType": "Full-time",
+            "workDescription": [
+                "Collaborated on 'SubscriptionFlow,' a B2B product, to streamline product functionality and customer transactions. Worked across teams to build a user-friendly billing platform with integrated UI components. Improved application speed significantly by implementing Cache storage and optimizing search and filtering."
+            ],
+            "dateText": "06/2022 – 09/2022"
+        }
+    ]
+}

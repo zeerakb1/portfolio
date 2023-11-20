@@ -1,6 +1,6 @@
 {
     "about": "I am a passionate and results-driven software engineer with a Bachelor's degree in Computer Science from LUMS. I'm currently pursuing MS in Computer Science from UC Davis. With a strong foundation in full-stack web development and mobile app development, I am skilled in JavaScript, Python, React, Node.js, and Flutter. With my technical skills, creativity, and dedication, I am eager to drive innovation and make a positive impact in the field of software engineering.",
-    "imageSource": "images/about/profile-img.jpeg",
+    "imageSource": "../images/about/profile-img.jpeg",
     "name": "Zeerak Babar",
     "title": "Software engineer & FullStack Developer"
     

@@ -23,6 +23,7 @@
     .navVisible {
         background-image:none;
         background-color: rgb(28, 28, 28);
+        /* margin-bottom: 100px; */
         /* background-image: gray; */
         position: fixed;
         top: 0;

@@ -13,7 +13,7 @@ const styles = {
     height: 40,
   },
   navBarToggle: {
-    color: 'rgb(24, 24, 24)',
+    // color: 'rgb(24, 24, 24)',
     // background: 'rgba(91, 91, 91, 0.874)',
   },
 };
@@ -74,6 +74,7 @@ const NavBar = () => {
   return (
     <Navbar
       fixed="top"
+      marginBottom="100px"
       expand="md"
       className={`navbar-custom && ${showNav ? 'navVisible' : 'navHidden'}`}
       variant="dark"

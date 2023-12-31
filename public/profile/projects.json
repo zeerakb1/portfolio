@@ -15,7 +15,8 @@
                 "JavaScript",
                 "React",
                 "Portfolio"
-            ]
+            ],
+            "category": ["All", "Website"]
         },
         {
             "image" : "../images/projects/backspace.jpg",
@@ -33,7 +34,23 @@
                 "Firebase",
                 "Figma",
                 "Android Application"
-            ]
+            ],
+            "category": ["All", "Mobile App"]
+        },
+        {
+            "image" : "../images/projects/an.jpg",
+            "title": "Anime World",
+            "bodyText": "- Anime World, built with React Native, offers the latest anime series across various genres with a seamless interface for iOS and Android users.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/Anime-World"
+                }
+            ],
+            "tags" : [
+                "React Native"
+            ],
+            "category": ["All", "Mobile App"]
         },
         {
             "image" : "../images/projects/tvshow (1).jpg",
@@ -52,7 +69,8 @@
                 "Matplotlib",
                 "Data Science",
                 "Data Analysis"
-            ]
+            ],
+            "category": ["All", "Others"]
         },
         {
             "image" : "../images/projects/briefbox-img.jpg",
@@ -69,7 +87,8 @@
                 "TailwindCss",
                 "OpenAI",
                 "JavaScript"
-            ]
+            ],
+            "category": ["All", "Website"]
         },
         {
             
@@ -88,7 +107,8 @@
                 "Node",
                 "WebSocket",
                 "Game"
-            ]
+            ],
+            "category": ["All", "Website"]
         },
         {
             "image": "../images/projects/bookshelf (1).jpg",
@@ -107,7 +127,24 @@
                 "MongoDB",
                 "Redux",
                 "Web Development"
-            ]
+            ],
+            "category": ["All", "Website"]
+        },
+        {
+            "image" : "../images/projects/Chatbot.jpg",
+            "title": "Chatbot",
+            "bodyText": "- A simple chatbot designed to use Google's PaLM 2 API for efficiently handling and responding to user queries.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/chatbot-palm2"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Bard API"
+            ],
+            "category": ["All", "Website"]
         },
         {
             "image" : "../images/projects/cscanner (1).jpg",
@@ -122,7 +159,8 @@
             "tags" : [
                 "Haskell",
                 "Parser"
-            ]
+            ],
+            "category": ["All", "Others"]
         },
         {
             "title": "Container Escape CVEs",
@@ -139,7 +177,8 @@
                 "Bash",
                 "Docker",
                 "Kubernetes"
-            ]
+            ],
+            "category": ["All", "Others"]
         }
     ]
 }

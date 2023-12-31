@@ -48,7 +48,9 @@
                 }
             ],
             "tags" : [
-                "React Native"
+                "React Native",
+                "iOS",
+                "Android Application"
             ],
             "category": ["All", "Mobile App"]
         },
@@ -129,6 +131,26 @@
                 "Web Development"
             ],
             "category": ["All", "Website"]
+        },
+        {
+            "image": "../images/projects/career.jpg",
+            "title": "CareerMatch",
+            "bodyText": "- A recommender system that utilizes machine learning to analyze resumes and recommends the top 5 jobs that align with an individual's skills and experience. \n - It uses Streamlit-based user interface for easy resume upload and job recommendation retrieval.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/CareerMatch"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Numpy",
+                "Pandas",
+                "SkLearn",
+                "Streamlit",
+                "Machine Learning"
+            ],
+            "category": ["All", "Website", "Others"]
         },
         {
             "image" : "../images/projects/Chatbot.jpg",

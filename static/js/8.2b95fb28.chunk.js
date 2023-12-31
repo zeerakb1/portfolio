@@ -1,0 +1,2 @@
+(this["webpackJsonpzeerakb1.github.io"]=this["webpackJsonpzeerakb1.github.io"]||[]).push([[8],{66:function(e,t,a){"use strict";a.r(t);var i=a(0),s=a(109),c=a(1);t.default=e=>{let{categories:t}=e;const[a,r]=Object(i.useState)("All");return Object(c.jsx)("div",{children:t.map((e=>Object(c.jsx)(s.a,{variant:a===e?"light":"secondary",onClick:()=>(e=>{r(e)})(e),className:"m-2 mb-5",children:e},e)))})}}}]);
+//# sourceMappingURL=8.2b95fb28.chunk.js.map

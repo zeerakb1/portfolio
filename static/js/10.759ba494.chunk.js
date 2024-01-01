@@ -1,2 +1,0 @@
-(this["webpackJsonpzeerakb1.github.io"]=this["webpackJsonpzeerakb1.github.io"]||[]).push([[10],{70:function(e,t,n){"use strict";n.r(t);n(0);var i=n(135),o=n.n(i),c=n(52),r=n(1);function s(e){const{onClick:t}=e;return Object(r.jsx)(r.Fragment,{children:Object(r.jsx)(c.a.Consumer,{children:e=>Object(r.jsx)("div",{style:{marginBottom:8},children:Object(r.jsx)(o.a,{onChange:()=>(e.darkMode.toggle(),void t()),checked:e.darkMode.value,size:50})})})})}s.defaultProps={onClick:()=>{}},t.default=s}}]);
-//# sourceMappingURL=10.759ba494.chunk.js.map

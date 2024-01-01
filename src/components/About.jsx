@@ -7,6 +7,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import '../css/about.css';
 
 const styles = {
   sectionContainer: {
@@ -17,14 +18,11 @@ const styles = {
     border: '2px solid blue',
   },
   cardContainer: {
-    // backgroundColor: 'rgba(29, 29, 29, 0.874)',
     value: '0',
     borderRadius: '30px',
     padding: '30px',
-    // boxShadow: '0 0 10px rgba(91, 91, 91, 0.874)',
   },
   introText: {
-    // fontSize: '1.2em',
     fonnSize: '5%',
     fontWeight: 400,
     textAlign: 'left',
@@ -49,7 +47,6 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     boxShadow: '16px 14px 20px #0000008c;',
-    // margin: '10px',
   },
   circularImage: {
     width: '250px',
@@ -100,7 +97,18 @@ function About(props) {
             <Fade>
               <div style={styles.cardContainer}>
                 <Row>
-                  <Col md={4} style={styles.imageContainer}>
+                  <Col md={4}>
+                    <Tilt options={defaultOptions}>
+                      <div className="col-lg-8">
+                        <div className="div-img-bg">
+                          <div className="about-img">
+                            <img src={data?.imageSource} alt="me" />
+                          </div>
+                        </div>
+                      </div>
+                    </Tilt>
+                  </Col>
+                  {/* <Col md={4} style={styles.imageContainer}>
                     <Tilt options={defaultOptions}>
                       <img
                         src={data?.imageSource}
@@ -109,7 +117,7 @@ function About(props) {
                         className="circularImage"
                       />
                     </Tilt>
-                  </Col>
+                  </Col> */}
                   <Col md={8}>
                     <h2 style={styles.headerText}>{data.name}</h2>
                     <h4 style={styles.titleText}>{data.title}</h4>

@@ -5,6 +5,7 @@ import {
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+import '../../css/projectCard.css';
 
 const styles = {
   badgeStyle: {
@@ -53,6 +54,7 @@ const ProjectCard = (props) => {
   return (
     <Col>
       <Card
+        className="card"
         style={{
           ...styles.cardStyle,
           backgroundColor: theme.cardBackground,

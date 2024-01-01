@@ -65,8 +65,12 @@ function Education(props) {
                 theme={{
                   primary: theme.accentColor,
                   secondary: '#312d2d',
-                  cardBgColor: theme.chronoTheme.cardBgColor,
+                  // cardBgColor: '#312d2d',
+                  // cardForeColor: 'black',
                   cardForeColor: theme.chronoTheme.cardForeColor,
+                  // cardBgColor: theme.chronoTheme.cardBgColor,
+                  // cardForeColor: 'black',
+                  cardBgColor: '#232323',
                   titleColor: theme.chronoTheme.titleColor,
                 }}
               >

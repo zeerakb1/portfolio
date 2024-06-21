@@ -1,11 +1,29 @@
 {
     "experiences": [
         {
+            "title": "Software Engineer Intern",
+            "subtitle": "iHerb, LLC",
+            "workType": "Full-time",
+            "workDescription": [
+                "Currently part of Transportation Management System (TMS) team, focusing on code migration and API development, streamlining deployment processes and improving scalability"
+            ],
+            "dateText": "06/2024 – Present"
+        },
+        {
+            "title": "Graduate Student Researcher",
+            "subtitle": "Computational Communication Research Lab (C2 lab or C-square lab)",
+            "workType": "Full-time",
+            "workDescription": [
+                "Led the enhancement of content moderation on YouTube using AI-based classifiers and Large Language Models, increasing harmful content detection accuracy from 54% to 88%. Advanced BERT baseline models with few-shot learning, integrating techniques such as Proto++, triplet loss, reduction, and induction networks to optimize model performance"
+            ],
+            "dateText": "04/2024 – Present"
+        },
+        {
             "title": "Graduate Teaching Assistant",
             "subtitle": "UC Davis",
             "workType": "Full-time",
             "workDescription": [
-                "Working as TA for the course HIS 9A. Led 3 discussion sections with 50 students, fostering interactivity. Provided one-on-one mentoring, designed quizzes, facilitated group activities, and graded assignments for feedback and improvement."
+                "Led discussion sections for courses in Computer Architecture and Web Programming, accommodating over 100 students. Provided one-on-one mentoring, designed quizzes, facilitated group activities, and graded assignments for feedback and improvement"
             ],
             "dateText": "10/2023 – Present"
         },
@@ -14,7 +32,7 @@
             "subtitle": "Knowledge Streams",
             "workType": "Full-time",
             "workDescription": [
-                "Led and instructed 60 students as a Data Science Instructor at Knowledge Streams, mentoring them in project work, using interactive exercises and assignments for active learning."
+                "Instructed 60 students as a Data Science Instructor at Knowledge Streams, mentoring them in project work, using interactive exercises and assignments for active learning"
             ],
             "dateText": "06/2023 – 10/2023"
         },
@@ -23,7 +41,7 @@
             "subtitle": "LUMS",
             "workType": "Part-time",
             "workDescription": [
-                "Worked in container-host escape attacks, securing software using Deep Graph Learning and anomaly detection for containerized applications. Analyzed Linux audit logs for Common Vulnerability Exploits in containerized apps, with a focus on Container Escape Attacks. Automated log processing using SPADE and Python scripts and used machine learning for detecting malicious attacks."
+                "Research focused on enhancing anomaly detection, developed a TensorFlow autoencoder with Graph Convolutional Networks that detects anomalies during software installations with 94.3% accuracy. Analyzed vulnerabilities in containerized apps, emphasizing Container Escape Attacks, and optimized graph-based models using Word2Vec for node embeddings. Additionally, streamlined log processing, reducing time by 30%"
             ],
             "dateText": "07/2022 – 06/2023"
         },
@@ -32,7 +50,7 @@
             "subtitle": "Techloyce",
             "workType": "Full-time",
             "workDescription": [
-                "Collaborated on 'SubscriptionFlow,' a B2B product, to streamline product functionality and customer transactions. Worked across teams to build a user-friendly billing platform with integrated UI components. Improved application speed significantly by implementing Cache storage and optimizing search and filtering."
+                "Contributed to the development of the 'SubscriptionFlow' B2B product, enhancing its functionality and improving customer transaction efficiency. Optimized app performance by implementing cache storage and streamlining the search and filter features, which reduced data retrieval times by 70%. Worked collaboratively with cross-functional teams to refine the codebase using Angular and Ionic, minimizing latency and enhancing the user interface"
             ],
             "dateText": "06/2022 – 09/2022"
         }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/css/experience.css"],"names":[],"mappings":"AAAA,aACI,cAEJ,CAEA,yCACI,YACI,yBACJ,CACJ","file":"6.5a48dd31.chunk.css","sourcesContent":[".entry .body{\n    margin: 0 0 1em;\n    /* color: blue; */\n}\n\n@media only screen and (max-width: 768px) {\n    .item-title {\n        margin-top: 14px !important;\n    }\n}\n"]}

@@ -1,2 +1,0 @@
-(this["webpackJsonpzeerakb1.github.io"]=this["webpackJsonpzeerakb1.github.io"]||[]).push([[8],{64:function(e,t,i){"use strict";i.r(t);i(0),i(65);var s=i(1);t.default=function(e){const{title:t}=e;return Object(s.jsx)("div",{className:"header",children:t})}}}]);
-//# sourceMappingURL=8.a2434c59.chunk.js.map

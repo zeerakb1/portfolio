@@ -48,16 +48,16 @@ const styles = {
     alignItems: 'center',
     boxShadow: '16px 14px 20px #0000008c;',
   },
-  circularImage: {
-    width: '250px',
-    height: '250px',
-    marginBottom: '12%',
-    borderRadius: '50%',
-    objectFit: 'cover',
-    position: 'relative',
-    overflow: 'hidden',
-    border: '8px solid #1a2e44',
-  },
+  // circularImage: {
+  //   width: '250px',
+  //   height: '250px',
+  //   marginBottom: '12%',
+  //   borderRadius: '50%',
+  //   objectFit: 'cover',
+  //   position: 'relative',
+  //   overflow: 'hidden',
+  //   border: '8px solid #1a2e44',
+  // },
 };
 
 function About(props) {

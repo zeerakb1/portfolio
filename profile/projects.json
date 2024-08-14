@@ -1,25 +1,52 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "../images/projects/folio.JPG",
-            "title": "Personal Website",
-            "bodyText": "- My personal website which serves as a comprehensive showcase of my professional projects and skills in software engineering \n - The website features a user-friendly design with a focus on responsive layouts to ensure accessibility on various devices",
+            "image": "../images/projects/cultural.png",
+            "title": "Cultural Exchange Platform",
+            "bodyText": "- A full-stack MERN platform designed to enable international students to share and explore cultural traditions. \n - This platform supports over 24 active users and includes features such as user authentication with JWT, Google Translate API integration for multilingual support, and text-to-audio functionality to enhance accessibility. ",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/zeerakb1/zeerakb1.github.io"
+                    "href": "https://github.com/zeerakb1/cultural-exchange-platform"
                 }
             ],
-            "tags" : [
-                "HTML/CSS",
-                "JavaScript",
-                "React",
-                "Portfolio"
+            "tags": [
+                "ReactJs",
+                "Express.js",
+                "Node.js",
+                "MongoDB",
+                "ContextAPI",
+                "Web Development"
             ],
-            "category": ["All", "Website"]
+            "category": [
+                "All",
+                "Website"
+            ]
         },
         {
-            "image" : "../images/projects/backspace.jpg",
+            "image": "../images/projects/brain_tumor.png",
+            "title": "Brain Tumor Classification",
+            "bodyText": "- A deep learning-based system designed for the classification of brain tumors using MRI images.  \n - The project involved fine-tuning the model with TensorFlow and enhancing accuracy with image processing and data augmentation, achieving 89.54% accuracy",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/cultural-exchange-platform"
+                }
+            ],
+            "tags": [
+                "OpenCV",
+                "Machine Learning",
+                "Tensorflow",
+                "Image Processing",
+                "Data Augmentation"
+            ],
+            "category": [
+                "All",
+                "Others"
+            ]
+        },
+        {
+            "image": "../images/projects/backspace.jpg",
             "title": "BackSpace",
             "bodyText": "- A mobile application designed to connect the LUMS student community of more than 1000 students \n - Include features such as real-time chat, instructor reviews, adding, deleting a post and search functionality ",
             "links": [
@@ -28,54 +55,66 @@
                     "href": "https://github.com/zeerakb1/BackSpace"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Flutter",
                 "Dart",
                 "Firebase",
                 "Figma",
                 "Android Application"
             ],
-            "category": ["All", "Mobile App"]
+            "category": [
+                "All",
+                "Mobile App"
+            ]
         },
         {
-            "image" : "../images/projects/an.jpg",
-            "title": "Anime World",
-            "bodyText": "- Anime World, built with React Native, offers the latest anime series across various genres with a seamless interface for iOS and Android users.",
+            "image": "../images/projects/llm.png",
+            "title": "Large Language Model Benchmarking",
+            "bodyText": "- Led a study benchmarking LLMs like Mistral, Falcon, and LLama2 for replicating developer feedback. \n - Analyzed 3,000+ feedback instances scraped from Stack Exchange and Reddit using prompt engineering and evaluated model performance with Cosine Similarity and ROUGE-L Score ",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/zeerakb1/Anime-World"
+                    "href": "https://github.com/zeerakb1/BackSpace"
                 }
             ],
-            "tags" : [
-                "React Native",
-                "iOS",
-                "Android Application"
+            "tags": [
+                "Mistral",
+                "Llama 2",
+                "Falcon",
+                "Scraping",
+                "NLP",
+                "Prompt Engineering"
             ],
-            "category": ["All", "Mobile App"]
+            "category": [
+                "All",
+                "Others"
+            ]
         },
         {
-            "image" : "../images/projects/tvshow (1).jpg",
-            "title": "TV Shows: Cleaning and Exploration",
-            "bodyText": "- Analyzed TV show data from streaming platforms to identify viewer trends and preferences \n - Performed data cleaning, preporcessing, and made predictions based insights",
+            "image": "../images/projects/sigl.png",
+            "title": "Securing Software Installations using Deep Graph Learning",
+            "bodyText": "- Developed an autoencoder-based tool using TensorFlow with GCN and MLP to detect malicious software installation behavior \n - Enhanced model performance using Word2Vec for node embeddings and streamlined log processing in Postgres with Bash and Python",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/zeerakb1/TV-Shows-Cleaning-and-Exploration"
+                    "href": "https://github.com/zeerakb1/sigl-code"
                 }
             ],
-            "tags" : [
-                "Python",
-                "Pandas",
-                "Numpy",
-                "Matplotlib",
-                "Data Science",
-                "Data Analysis"
+            "tags": [
+                "Deep Graph Learning",
+                "Autoencoder",
+                "Word2Vec",
+                "Postgres",
+                "Bash",
+                "Python"
             ],
-            "category": ["All", "Others"]
+            "category": [
+                "All",
+                "Others"
+            ]
         },
         {
-            "image" : "../images/projects/briefbox-img.jpg",
+            "image": "../images/projects/briefbox-img.jpg",
             "title": "BriefBox",
             "bodyText": "- BriefBox is an application integrating OpenAI API to generate concise and brief overviews of articles and blogs \n - It uses Tailwind CSS and localstorage to provide faster data retrieval and dynamic UI updates",
             "links": [
@@ -84,17 +123,63 @@
                     "href": "https://github.com/zeerakb1/BriefBox"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "ReactJs",
                 "TailwindCss",
                 "OpenAI",
-                "JavaScript"
+                "JavaScript",
+                "Caching"
             ],
-            "category": ["All", "Website"]
+            "category": [
+                "All",
+                "Website"
+            ]
         },
         {
-            
-            "image" : "../images/projects/board (1).jpg",
+            "image": "../images/projects/an.jpg",
+            "title": "Anime World",
+            "bodyText": "- Anime World, built with React Native, offers the latest anime series across various genres with a seamless interface for iOS and Android users.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/Anime-World"
+                }
+            ],
+            "tags": [
+                "React Native",
+                "iOS",
+                "Android Application"
+            ],
+            "category": [
+                "All",
+                "Mobile App"
+            ]
+        },
+        {
+            "image": "../images/projects/tvshow (1).jpg",
+            "title": "TV Shows: Cleaning and Exploration",
+            "bodyText": "- Analyzed TV show data from streaming platforms to identify viewer trends and preferences \n - Performed data cleaning, preporcessing, and made predictions based insights",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zeerakb1/TV-Shows-Cleaning-and-Exploration"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Pandas",
+                "Numpy",
+                "Matplotlib",
+                "Data Science",
+                "Data Analysis"
+            ],
+            "category": [
+                "All",
+                "Others"
+            ]
+        },
+        {
+            "image": "../images/projects/board (1).jpg",
             "title": "Board Sequence Game",
             "bodyText": "- A multiplayer game of Sequence for four players (2 in each team). Player 1 and 3 will be team 1 and player 2 and 4 will be team 2 by default.",
             "links": [
@@ -103,34 +188,17 @@
                     "href": "https://github.com/zeerakb1/Board-Sequence-Game"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "HTML/CSS",
                 "JavaScript",
                 "Node",
                 "WebSocket",
                 "Game"
             ],
-            "category": ["All", "Website"]
-        },
-        {
-            "image": "../images/projects/bookshelf (1).jpg",
-            "title": "Bookshelf",
-            "bodyText": "- A web based full stack MERN application that provides local bookstore brand’s offline inventory into an online shopping platform \n - Included features such as add to cart, filter products, update inventory and checkout",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/zeerakb1/Bookshelf"
-                }
-            ],
-            "tags" : [
-                "ReactJs",
-                "Express.js",
-                "Node.js",
-                "MongoDB",
-                "Redux",
-                "Web Development"
-            ],
-            "category": ["All", "Website"]
+            "category": [
+                "All",
+                "Website"
+            ]
         },
         {
             "image": "../images/projects/career.jpg",
@@ -142,7 +210,7 @@
                     "href": "https://github.com/zeerakb1/CareerMatch"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python",
                 "Numpy",
                 "Pandas",
@@ -150,10 +218,14 @@
                 "Streamlit",
                 "Machine Learning"
             ],
-            "category": ["All", "Website", "Others"]
+            "category": [
+                "All",
+                "Website",
+                "Others"
+            ]
         },
         {
-            "image" : "../images/projects/Chatbot.jpg",
+            "image": "../images/projects/Chatbot.jpg",
             "title": "Chatbot",
             "bodyText": "- A simple chatbot designed to use Google's PaLM 2 API for efficiently handling and responding to user queries.",
             "links": [
@@ -162,14 +234,17 @@
                     "href": "https://github.com/zeerakb1/chatbot-palm2"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "React",
                 "Bard API"
             ],
-            "category": ["All", "Website"]
+            "category": [
+                "All",
+                "Website"
+            ]
         },
         {
-            "image" : "../images/projects/cscanner (1).jpg",
+            "image": "../images/projects/cscanner (1).jpg",
             "title": "C Scanner",
             "bodyText": "- Haskell code that scans a C/C++ file, takes a sequence of characters (the source file of the program) and produces a sequence of tokens",
             "links": [
@@ -178,11 +253,14 @@
                     "href": "https://github.com/zeerakb1/C-Scanner/tree/main"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Haskell",
                 "Parser"
             ],
-            "category": ["All", "Others"]
+            "category": [
+                "All",
+                "Others"
+            ]
         },
         {
             "title": "Container Escape CVEs",
@@ -193,14 +271,17 @@
                     "href": "https://github.com/haseeb62/Container-Escape-CVEs"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Linux",
                 "Python",
                 "Bash",
                 "Docker",
                 "Kubernetes"
             ],
-            "category": ["All", "Others"]
+            "category": [
+                "All",
+                "Others"
+            ]
         }
     ]
 }

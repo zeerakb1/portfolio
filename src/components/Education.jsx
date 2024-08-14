@@ -26,11 +26,12 @@ function Education(props) {
       .catch((err) => err);
 
     if (window?.innerWidth < 576) {
-      setMode('VERTICAL');
+      setMode('HORIZONTAL');
+      // setMode('VERTICAL_ALTERNATING');
     }
 
     if (window?.innerWidth < 576) {
-      setWidth('90vw');
+      setWidth('100vw');
     } else if (window?.innerWidth >= 576 && window?.innerWidth < 768) {
       setWidth('90vw');
     } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
@@ -48,28 +49,22 @@ function Education(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
+                slideShow
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
                 cardHeight={450 * 0.5}
-                mediaHeight={250 * 0.75}
+                mediaHeight={window.innerWidth > 576 ? (400 * 0.75) : (250 * 0.75)}
                 mode={mode}
                 // textOverlay
                 fontSizes={{
-                  // cardSubtitle: '24px',
-                  // cardText: '10px',
                   cardTitle: '1.5vm',
-                  // title: '16px',
                 }}
                 theme={{
                   primary: theme.accentColor,
                   secondary: '#312d2d',
-                  // cardBgColor: '#312d2d',
-                  // cardForeColor: 'black',
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  // cardBgColor: theme.chronoTheme.cardBgColor,
-                  // cardForeColor: 'black',
                   cardBgColor: '#232323',
                   titleColor: theme.chronoTheme.titleColor,
                 }}
@@ -87,7 +82,7 @@ function Education(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : <FallbackSpinner />}
     </>
   );
 }

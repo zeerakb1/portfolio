@@ -94,7 +94,7 @@ function Home() {
         <Social />
         <Button
           style={styles.showMoreStyle}
-          href="https://drive.google.com/file/d/1L_DQrEttChd8E7dD-Z82oRc4pTDa7AKx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1CTTvN6wBu4aTY9pZzSaTGnCWSen4dL-f/view?usp=sharing"
           variant="outline-primary"
         >
           View Resume

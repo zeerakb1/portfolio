@@ -9,20 +9,36 @@
     /* color: #2e3f4e; */
 }
 
-/* .chrono-icons {
-    background-color: yellow;
-    font-size: larger;
-} */
+.card {
+    /* padding: 1000px; */
+    box-sizing: border-box;
+    /* margin: 1000px; */
+}
+
 
 
 @media only screen and (max-width: 578px) {
-    div.vertical-item-row > div:nth-child(1) {
+    .card-title {
+        padding-left: 2.5rem;
+        font-size: 0.7rem;
+    }
+    .card-subtitle {
+        padding-left: 2.8rem;
+        font-size: 0.9rem;
+    }
+    .card-detailedtext {
+        padding-left: 1.2rem;
+        font-size: 0.9rem;
+    }
+    div.vertical-item-row>div:nth-child(1) {
         width: 20% !important;
     }
-    div.vertical-item-row > div:nth-child(2) {
+
+    div.vertical-item-row>div:nth-child(2) {
         width: 65% !important;
     }
-    div.vertical-item-row > div:nth-child(3) {
+
+    div.vertical-item-row>div:nth-child(3) {
         width: 15% !important;
     }
 }

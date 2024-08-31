@@ -46,20 +46,57 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div style={{ width }} className="section-content-container">
+          <div style={{
+            width,
+          }}
+          >
             <Container>
               <Chrono
                 slideShow
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
+                classNames={{
+                  // cardText: 'card-text',
+                  cardTitle: 'card-title',
+                  cardSubTitle: 'card-subtitle',
+                  cardText: 'card-detailedtext',
+                }}
                 items={data.education}
-                cardHeight={450 * 0.5}
-                mediaHeight={window.innerWidth > 576 ? (400 * 0.75) : (250 * 0.75)}
+                cardHeight={window.innerWidth > 576 ? 225 : 200}
+                mediaHeight={window.innerWidth > 576 ? 300 : 200}
+                mode={mode}
+                fontSizes={{
+                  cardTitle: window.innerWidth > 576 ? '1.5rem' : '0.9rem',
+                  cardText: window.innerWidth > 576 ? '1rem' : '0.7rem',
+                }}
+                theme={{
+                  primary: theme.accentColor,
+                  secondary: '#312d2d',
+                  cardForeColor: theme.chronoTheme.cardForeColor,
+                  cardBgColor: '#232323',
+                  titleColor: theme.chronoTheme.titleColor,
+                  titleColorActive: '#fff',
+                  titleColorInactive: '#aaa',
+                  titleFontSize: '1rem',
+                }}
+              />
+              {/* <Chrono
+                slideShow
+                hideControls
+                allowDynamicUpdate
+                useReadMore={false}
+                items={data.education}
+                cardHeight={window.innerWidth > 576 ? 225 : 200} // Adjust height for mobile
+                mediaHeight={window.innerWidth > 576 ? 300 : 200}
+                // cardHeight={450 * 0.5}
+                // mediaHeight={window.innerWidth > 576 ? (400 * 0.75) : (250 * 0.75)}
                 mode={mode}
                 // textOverlay
                 fontSizes={{
-                  cardTitle: '1.5vm',
+                  // cardTitle: '1.5vm',
+                  cardTitle: window.innerWidth > 576 ? '1.5rem' : '0.8rem',
+                  cardText: window.innerWidth > 576 ? '1rem' : '0.9rem',
                 }}
                 theme={{
                   primary: theme.accentColor,
@@ -78,7 +115,7 @@ function Education(props) {
                     />
                   ) : null))}
                 </div>
-              </Chrono>
+              </Chrono> */}
             </Container>
           </div>
         </Fade>
